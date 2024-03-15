@@ -44,6 +44,10 @@ namespace WebApp1.Controllers
         {
             return View();
         }
+        public IActionResult BMW()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,0 +1,65 @@
+﻿@{
+    <title>Stasik_Auto</title>
+    <link rel="icon" type="image/x-icon" href="\\images\\df dfavicon.ico" />
+    ViewData["Title"] = "www.Stasik_Audi.com";
+}
+<h1>@ViewData["Title"]</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+		body {
+			background-image: url('\\images\\bmwback.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .image-text {
+            font-size: 18px;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size:60px; text-align:center; color: white">Some facts about nice car</h1>
+
+    <div class="image-container">
+		<abbr title="Nice car,huh?">
+            <img src="~/images/bmwm8.jpg" alt="BMW" width="500px" height="300px" style="border: 2px solid black;">
+        </abbr>
+        <p class="image-text"><em><mark>BMW M8 Competition</mark></em></p>
+    </div>
+    <p1 style=" font-size: 16px; color: white">
+		<em>
+			<b>
+				The BMW M8 Competition epitomizes the pinnacle of luxury and high-performance engineering within the Bavarian automaker's lineup. Born from BMW's Motorsport division,
+				the M8 Competition combines opulent grand touring comfort with exhilarating track-ready performance. Featuring an aggressive design language with aerodynamic
+				enhancements and M-specific styling cues, the M8 Competition commands attention on the road and track alike. Beneath its sculpted exterior lies a formidable powertrain,
+				comprising a high-output twin-turbocharged V8 engine, delivering prodigious horsepower and torque figures, catapulting the M8 Competition from 0 to 60 mph in blistering
+				acceleration times. Its finely-tuned suspension, adaptive damping system, and rear-biased all-wheel-drive ensure precise handling and agility, providing
+				confidence-inspiring performance in any driving situation. As a testament to its track prowess, the M8 Competition has set impressive lap times on renowned circuits
+				around the world, showcasing its dynamic capabilities and motorsport heritage. Inside the cabin, the M8 Competition offers a luxurious and technologically advanced
+				environment, replete with premium materials, cutting-edge infotainment systems, and driver-focused amenities. Whether carving through winding mountain roads or cruising
+				on the open highway, the BMW M8 Competition delivers an unparalleled driving experience that seamlessly blends performance, luxury, and exhilaration.
+			</b>
+			
+		</em>
+        
+    </p1>
+    <hr>
+    <p style="color:white">The <abbr title="Baurishe Motoren Werke">BMW</abbr> was founded in 1948.</p>
+    <span style="color: white">&copy;www.Stasik_Audi.com</span>
+    <a style="color: white" href="https://www.bmwusa.com/vehicles/m-models/m8-coupe/overview.html">Visit BMW official web-site</a>
+    <p>This is my first page</p>
+    <p>@ViewBag.MyBag</p>
+
+</body>
