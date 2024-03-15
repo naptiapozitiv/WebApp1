@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "www.Stasik_Porsche.com";
+}
+<h1>@ViewData["Title"]</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+		body {
+			background-image: url("\\images\\Sky.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: blue;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .image-text {
+            font-size: 18px;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size:60px; text-align:center;">Some facts about nice car</h1>
+
+    <div class="image-container">
+        <abbr title="Nice car,huh?">
+            <img src="~/images/2019-porsche-911-gt3-rs-motor-review.jpg" alt="Porsche" width="400px" height="250px" style="border: 2px solid black;">
+        </abbr>
+        <p class="image-text"><em><mark>Porsche GT 3RS</mark></em></p>
+    </div>
+    <p1></p1>
+    <span>&copy;www.Stasik_Porsche.com</span>
+    <a href="https://www.porsche.com/usa/models/911/911-gt3-rs/911-gt3-rs/">Visit Porche official web-site</a>
+    <p>This is my first page</p>
+    <p>@ViewBag.MyBag</p>
+
+</body>

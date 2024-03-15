@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Images\2019-Porsche-911-GT3-RS-MOTOR-review.jpg" />
+    <None Include="wwwroot\Images\vw-das-auto-hed-2015.png" />
+  </ItemGroup>
+
 </Project>
