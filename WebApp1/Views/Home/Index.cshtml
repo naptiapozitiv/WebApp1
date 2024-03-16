@@ -1,15 +1,28 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
-<link rel="icon" type="image\\x-icon" href="\\images\\df dfavicon.ico"/>
     <head>
         <style>
+        .imageAudi-container,
+        .imageBMW-container,
+        .imagePorsche-container 
+        {
+            display: inline-block; 
+            vertical-align: top; 
+            margin: 40px; 
+        }
+
+            .imageAudi-container:hover,
+            .imageBMW-container:hover,
+            .imagePorsche-container:hover 
+            {
+                border: 5px solid red;
+            }
             table {
                 font-family: arial, sans-serif;
                 border-collapse: collapse;
                 width: 100%;
             }
-
             td, th {
                 border: 2px solid #dddddd;
                 text-align: left;
@@ -45,4 +58,22 @@
             }
         </tbody>
     </table>
+    <hr>
+	<h1 style="font-size:35px;text-align:center">Choose the Car</h1>
+    <hr>
+    <div class ="imageAudi-container">
+        <a href="@Url.Action("Audi", "Home")">
+            <img src="~/images/audilogo.jpg" alt="AudiLogo" width="400px" height="250px" style="border: 2px solid black;" />
+       </a>
+    </div>
+    <div class="imageBMW-container">
+        <a href="@Url.Action("BMW", "Home")">
+        <img src="~/images/bmwlogo.jpg" alt="BMWLogo" width="250px" height="250px" style="border: 2px solid black;" />
+        </a>
+    </div>
+    <div class="imagePorsche-container">
+        <a href="@Url.Action("Porsche", "Home")">
+    <img src="~/images/porschelogo.jpg" alt="PorscheLogo" width="250px" height="250px" style="border: 2px solid black;" />
+       </a>
+    </div>
 </body>
